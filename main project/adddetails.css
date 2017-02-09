@@ -1,0 +1,25 @@
+.details{
+	position: absolute;
+	top: 750px;
+	left: 50px;
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+.details1{
+    position: absolute;
+    top:768px;
+    left: 350px;
+	width: 100px;
+	height: 20px;
+}
+.details2{
+	position: absolute;
+	top: 800px;
+	left: 250px;
+	height: 250px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}

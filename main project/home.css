@@ -1,0 +1,166 @@
+<style>
+.{margin:0;padding: 0}
+h1 {
+    position: absolute;
+    top:55px;
+    left: 600px;
+    color: black;  
+    font-size: 250%;
+}
+
+h2 {
+    color: black;
+    font-size: 200%;
+}
+
+.left{
+    position: absolute;
+    top: 80px;
+   left: 650px;
+    
+}
+.left1{
+color: black;
+position: absolute;
+top:120px;
+left: 230px;
+    font-size: 150%;
+    
+}
+.left1 a{text-decoration: none;}
+.left2{
+position: absolute;
+    top:150px;
+    left: 1080px;
+}
+.left2 a{text-decoration: none;}
+.left4{
+position: absolute;
+    top:150px;
+    left: 1000px;
+   
+}
+.left4 a{text-decoration: none;}
+.main{ width: 960px;
+    margin: 50px auto;
+    display: block;
+    overflow: hidden;}
+
+.header {
+   background-image: url(1.jpg);
+    width: 960px;
+    height: 150px;
+}
+    
+
+#footer {
+  
+    height:480px;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	 background-image: url(5.jpg);
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
+
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 11px 33px;
+	width: 70px;
+    height: 30px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #49A3FF;
+     z-index: 9999;}
+
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 12px 38px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 11px arial}
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF;
+       z-index: 9999;
+    }
+
+.container{
+ 
+ 
+  position: absolute;
+  border: 0px;
+    top: 230px;
+  left: 164px;
+}
+.left_holder{
+    position:absolute;
+    height: 500px;
+    width: 10px;
+     top: 70;
+  left: -630px;
+}
+.right_holder{
+    position: absolute;
+    height: 50px;
+    width: 10px;
+     top: 150;
+  right: 57px;
+}
+.ribbon_img{
+    position: absolute;
+    top:545px;
+    left: 140px;
+    height: 70px;
+    width: 640px;
+    opacity: 0.8;
+}
+
+</style>

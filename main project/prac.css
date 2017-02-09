@@ -1,0 +1,129 @@
+<style>
+.{margin:0;padding: 0}
+h1 {
+    position: absolute;
+    top:55px;
+    left: 600px;
+    color: black;  
+    font-size: 250%;
+}
+
+h2 {
+    color: black;
+    font-size: 200%;
+}
+
+body{
+background-color: transparent;
+}
+.left{
+    position: absolute;
+top: 80px;
+left: 650px;
+    
+}
+.left1{
+color: black;
+position: absolute;
+top:120px;
+left: 230px;
+    font-size: 150%;
+    
+}
+.left1 a{text-decoration: none;}
+.left2{
+position: absolute;
+    top:150px;
+    left: 1080px;
+}
+.left2 a{text-decoration: none;}
+.left4{
+position: absolute;
+    top:150px;
+    left: 1000px;
+   
+}
+.left4 a{text-decoration: none;}
+.main{ width: 960px;
+    margin: 50px auto;
+    display: block;
+    overflow: hidden;}
+
+.header {
+   background-image: url(1.jpg);
+    width: 960px;
+    height: 150px;
+}
+    
+.mainmanu {
+    background-color: #ededed;
+    overflow: hidden;
+}
+.mainmanu ul{margin: 0;padding: 0;list-style: none;}
+.mainmanu ul li{ float: left;border-right: 1px solid #ddd;}
+.mainmanu ul li a{ display: block;color:  #000;padding: 11px 33px;
+text-decoration: none; }
+.mainmanu ul li a:hover{background: #fff;}
+
+
+
+
+
+.mainmanu ul ul{
+    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+.mainmanu ul ul li{
+    padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float:none;
+}
+.mainmanu ul ul a{
+    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+.mainmanu ul li:hover ul{ /* Display the dropdown on hover */
+    left:300; /* Bring back on-screen when needed */
+}
+.mainmanu ul li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+    background:#fff;
+    text-decoration:underline;
+}
+.mainmanu ul li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration:none;
+}
+.mainmanu ul li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background:#333;
+}
+
+
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background:#ededed;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+    </style>
+</style>

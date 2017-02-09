@@ -1,0 +1,145 @@
+
+
+.login{
+	position: absolute;
+	top: 750px;
+	left: 200px;
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=email]{
+    
+    position: absolute;
+    top:100px;
+    left: 10px;
+	width: 200px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid #000000;
+	border-radius: 2px;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+
+.login input[type=button]{
+    
+    position: absolute;
+    top:365px;
+    left: 10px;
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #000000;
+	border-radius: 2px;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+    position: absolute;
+    top:440px;
+    left: 10px;
+	width: 100px;
+	height: 20px;
+	border: 1px solid #000000;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.login input[type=checkbox]{
+	position: absolute;
+    top: 170px;
+	
+}
+
+
+
+.brouse {
+    position: absolute;
+    top:400px;
+    left: 10px;
+    height: 15px;
+    width: 160px;
+    border: 1px solid #000000;
+    padding:10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+.brouse a{
+    color: #000000;
+
+}
+.h1
+{
+    position: absolute;
+    top:50px;
+    left: 600px;
+    font-size: 30px;
+
+}
+.text
+{
+position: absolute;
+    top: 147px;
+    left:37px;
+    padding:4px;
+    border: 2px solid white;
+
+}
+
+
+.input{
+    
+    position: absolute;
+    top:0px;
+    left: 40px;
+	
+}
+
+.footer{
+    position: 800px;
+    left: 10px;
+    height: 30px;
+    width: 100px;
+
+}
+.discription{
+    position: absolute;
+    left: 350px;
+    top: 1205px;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    
+}
+.discription a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+.discription a:link{
+    text-decoration: none;
+    color: black;
+
+}

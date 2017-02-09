@@ -1,0 +1,60 @@
+#img_size
+{
+   
+     height:350px;
+     width: 400px;
+
+
+}
+#img_size1
+{
+   
+     height:450px;
+     width: 400px;
+
+
+}
+#photo_show{
+    position: absolute;
+    top: 40px;
+    width: 960px;
+    color: black;
+    background: white;
+}
+#image{
+    padding-top: 25px;
+    padding-left: 25px;
+    float: left;
+}
+#discription{
+    padding-top: 25px;
+    padding-left: 25px;
+    float: left;
+    color: black;
+}
+.table{
+
+position: absolute;
+    top: -70px;
+    left: 440px;
+    padding: 30px;
+    font-size: 75%;
+    height: 900px;
+    width: 600px;
+}
+.table1{
+
+    position: absolute;
+    top: -70px;
+    left: 440px;
+    padding: 25px;
+    font-size: 200%;
+    height: 800px;
+    width: 600px;
+}
+
+td{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 7px;
+}
